@@ -25,7 +25,6 @@
 //write a function that transform the data into an object that uses the full candidate name and tracks the total delegates and the delegate total from each state
 
 exports.apply = (sourceData, outputData) => {
-  console.log(sourceData.delegates)
   //config candidate name data
   let configNames = (sourceData.configData || {}).candidates || [];
   //variable to store candidate id and full name
